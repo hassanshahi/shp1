@@ -45,4 +45,6 @@ sudo dnf config-manager --set-disabled epel-cisco-openh264
 echo "مرحله 7: ارتقاء بسته‌ها"
 sudo dnf upgrade -y
 
+cat /etc/almalinux-release
+
 echo "تمام مراحل با موفقیت انجام شد."
