@@ -2,6 +2,8 @@
 
 set -e
 
+cat /etc/almalinux-release
+
 echo "مرحله 1: بکاپ گرفتن از فایل‌های repo"
 REPO_PATH="/etc/yum.repos.d"
 BACKUP_PATH="/etc/yum.repos.d/backup_$(date +%F_%T)"
